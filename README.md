@@ -1,2 +1,2 @@
 # clone
-practice html/css/JS by clone
+html/css/js cloning practices 
