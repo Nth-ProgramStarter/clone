@@ -241,7 +241,7 @@ header .container .col-md-7 button {
 }
 
 .card-body .pricing>h1 {
-    font-size: 10vmin;
+    font-size: 8.5vmin;
     padding: 1em 0.5em;
 }
 
@@ -351,3 +351,27 @@ footer input {
 footer input::placeholder {
     color: white !important;
 }
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+footer .column i + i {
+    padding: 0 0.5em;
+}
+
+/* Sticky Class*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
